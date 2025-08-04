@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+.env
+selenium_profile/
+*.pyc
+__pycache__/
+venv/
+.DS_Store
+linkedin_bot.py
+getdata.ipynb

@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+.env
+selenium_profile/
+*pyc
+venv/
+venv

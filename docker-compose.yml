@@ -1,0 +1,13 @@
+services:
+  linkedin-scraper:
+    build: .
+    container_name: linkedin_bot
+    environment:
+      - DEBUG=False
+    env_file:
+      - .env
+    volumes:
+      - ./selenium_profile:/app/selenium_profile
+    shm_size: '2gb' 
+    security_opt:
+      - seccomp:unconfined

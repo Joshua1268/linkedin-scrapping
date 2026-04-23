@@ -5,7 +5,7 @@
 
 Ce projet a pour objectif de fournir un outil permettant d'identifier les tendances sur le thème bien precis sur la plateforme linkedin
 
-L'outil extrait automatiquement des posts LinkedIn liés à des mots-clés spécifiques, les traite et les stocke dans une base de données PostgreSQL. Un tableau de bord a été créé dans Google Data Studio pour visualiser les données  et un worflow N8n peut travailler sur ses données.
+L'outil extrait automatiquement des posts LinkedIn liés à des mots-clés spécifiques, les traite et les stocke dans une base de données PostgreSQL. Un tableau de bord a été créé dans Google Data Studio pour visualiser les données et un worflow N8n peut travailler sur ses données.
 
 ## **Fonctionnalités**
 
@@ -43,8 +43,8 @@ git clone https://github.com/votre-utilisateur/projet-caf.git
 
 ```bash
 python -m venv venv
-source venv/bin/activate   # Sur macOS/Linux
-venv\Scripts\activate      # Sur Windows
+source venv/bin/activate # Sur macOS/Linux
+venv\Scripts\activate # Sur Windows
 ```
 
 ### 3. Installer les dépendances
@@ -107,10 +107,9 @@ Voici les principales dépendances utilisées dans ce projet :
 
 Voir le fichier [requirements.txt](requirements.txt) pour une liste complète.
 
-
 ## **Auteur**
 
-Josué Kouassi  
+**Josué Kouassi**
+*ML Engineer & AI Engineer*
 
-**Contact** : kouassijosue1268@gmail.com
-**LinkedIn** : www.linkedin.com/in/josué-kouassi-538225292
+Email : josue.kouassi.ds@gmail.com
